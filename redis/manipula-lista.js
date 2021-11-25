@@ -1,5 +1,4 @@
 const { promisify } = require('util');
-const { deleta } = require('../src/usuarios/usuarios-dao');
 
 module.exports = lista => {
 const setAsync = promisify(lista.set).bind(lista);
